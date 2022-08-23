@@ -22,7 +22,7 @@ public class Main {
 
         // Задача 5
 
-        int month = 12;
+        int month = 5;
             if (month / 3 == 1)
                 System.out.println("весна");
             else if (month / 3 == 2)
@@ -31,11 +31,11 @@ public class Main {
                 System.out.println("осень");
             else
                 System.out.println("зима");
-
-
-
-
-
+            int month1 = 2;
+            if (month1 / 3 == 1) {System.out.println("Весна");}
+            else if (month1 / 3 == 2) {System.out.println("Лето");}
+            else if (month1 / 3 == 3) {System.out.println("Осень");}
+            else {System.out.println("Зима");}
 
 
     }}
